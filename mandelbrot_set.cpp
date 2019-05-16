@@ -130,11 +130,11 @@ void display() {
 }
 
 void welcome_display() {
-    text_display(300,700,"C:\\Users\\Dell\\Desktop\\welcome.txt");
+    text_display(300,700,"filepath:\\welcome.txt");
 }
 
 void description_display() {
-    text_display(100,700,"C:\\Users\\Dell\\Desktop\\mandelbrot_set_description.txt");
+    text_display(100,700,"filepath:\\mandelbrot_set_description.txt");
 }
 
 void mandelbrot_display() {
