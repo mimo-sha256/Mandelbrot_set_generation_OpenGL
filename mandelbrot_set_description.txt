@@ -1,0 +1,15 @@
+                                                                               MANDELBROT SET
+
+The Mandelbrot set is the set of complex numbers c for which the function f_{c}(z)=z^{2}+c does not diverge when iterated
+from z=0, i.e., for which the sequence f_{c}(0), f_{c}(f_{c}(0)),etc., remains bounded in absolute value.
+
+Zooming into the Mandelbrot set
+Its definition and name are due to Adrien Douady, in tribute to the mathematician Benoit Mandelbrot.
+
+Mandelbrot set images may be created by sampling the complex numbers and testing, for each sample point c,whether the sequence 
+f_{c}(0),f_{c}(f_{c}(0)).... goes to infinity (in practice -- whether it leaves some predetermined bounded neighborhood of 0 
+after a predetermined number of iterations). Treating the real and imaginary parts of c as image coordinates on the complex
+plane, pixels may then be coloured according to how soon the sequence  |f_{c}(0)|,|f_{c}(f_{c}(0))|.... crosses an arbitrarily
+chosen threshold, with a special color (usually black) used for the values of  c for which the sequence has not crossed the
+threshold after the predetermined number of iterations (this is necessary to clearly distinguish the Mandelbrot set image from
+the image of its complement). If c is held constant and the initial value of  z—denoted by z_{0}—is variable instead.
